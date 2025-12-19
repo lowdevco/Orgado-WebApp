@@ -1,0 +1,24 @@
+import Footer from "./assets/components/Footer"
+import Header from "./assets/components/Header"
+import Mainsection from "./assets/components/Mainsection"
+import Navbar from "./assets/components/Navbar"
+import Organictab from "./assets/components/Organictab"
+import Subbar from "./assets/components/Subbar"
+import Tabs from "./assets/components/Tabs"
+
+function App() {
+
+  return (
+    <>
+    <Header/>
+    <Subbar/>
+    <Navbar/>
+    <Mainsection/>
+    <Tabs/>
+    <Organictab/>
+    <Footer/>
+    </>
+  )
+}
+
+export default App

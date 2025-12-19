@@ -1,0 +1,10 @@
+
+#header{
+    background-color: white;
+    color: rgb(66, 66, 66);
+}
+
+.header-container{
+    max-width: 1650px;
+    margin: auto;
+}

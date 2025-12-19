@@ -1,0 +1,31 @@
+import React from "react";
+import "../css/mainsection.css";
+import swirl from "../image/swirl.png";
+
+function Mainsection() {
+  return (
+    <section className="container-fluid" id="main-section">
+      <div>
+        <div className="container main-content" id="moto-container">
+          <div className="moto">
+            <h1>Orgainc</h1>
+            <h1>Fresh Food</h1>
+          </div>
+
+          <div className="moto-description">
+            <p>
+              Discover organic, sustainable food from our organic farm and <br /> fresh
+              vegetable, and food Shop Now
+            </p>
+            <div className="d-flex">
+            <button type="submit">Shop Now</button>
+            <img src={swirl} alt="bounce" className="bounce-img"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default Mainsection;
