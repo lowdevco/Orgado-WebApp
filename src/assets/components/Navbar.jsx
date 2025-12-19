@@ -1,5 +1,7 @@
 import React from "react";
+import navbarlogo from "../image/logo.webp";
 import "../css/navbar.css";
+
 
 function Navbar() {
   
@@ -11,7 +13,7 @@ function Navbar() {
       >
         <div>
           <a href="">
-            <img src="../public/logo.webp" alt="logo" />
+            <img src={navbarlogo} alt="logo" />
           </a>
         </div>
 
