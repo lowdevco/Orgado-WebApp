@@ -8,7 +8,7 @@ function Footer() {
       <div className="footer-top container-fluid d-flex justify-content-center align-items-center">
         <div className="container">
           <div className="d-flex justify-content-center align-items-center mb-5">
-            <img src={footerlogo} alt="logo" />
+            <a href=""><img src={footerlogo} alt="logo" /></a>
           </div>
           <div className="d-flex justify-content-center align-items-center gap-5 mb-4" id="footer-links">
             <div>

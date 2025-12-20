@@ -12,7 +12,7 @@ function Navbar() {
         className="container-fluid d-flex justify-content-between py-3 align-items-center navbar-container"
       >
         <div>
-          <a href="">
+          <a href="" >
             <img src={navbarlogo} alt="logo" />
           </a>
         </div>

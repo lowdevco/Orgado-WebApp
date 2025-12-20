@@ -55,3 +55,8 @@ input[type="text"] {
     align-items: center;
     justify-content: center;
 }
+
+#navbar h6:hover{
+  color: #699c47;
+  cursor: pointer;
+}
