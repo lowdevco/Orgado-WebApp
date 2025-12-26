@@ -1,21 +1,27 @@
-#subbar{
-    background-color: #699c47;
-    color: white;
+#subbar {
+  background-color: #699c47;
+  color: white;
 }
 
-#option select{
-    background-color: #699c47;
-    color: white;
-    border: none;
-    font-size: 14px;
+#option select {
+  background-color: #699c47;
+  color: white;
+  border: none;
+  font-size: 14px;
 }
 
-#sub-link{
-    color: white;
-    text-decoration: none;
+#sub-link {
+  color: white;
+  text-decoration: none;
 }
 
-.subbar-container{
-    max-width: 1650px;
-    margin: auto;
+.subbar-container {
+  max-width: 1650px;
+  margin: auto;
+}
+
+@media (max-width: 500px) {
+  .subbar {
+    display: none;
+  }
 }

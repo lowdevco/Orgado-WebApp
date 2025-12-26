@@ -1,14 +1,31 @@
-
-#header{
-    background-color: white;
-    color: rgb(66, 66, 66);
+#header {
+  background-color: white;
+  color: rgb(66, 66, 66);
 }
 
-.header-container{
-    max-width: 1650px;
-    margin: auto;
+.header-container {
+  max-width: 1650px;
+  margin: auto;
 }
 
-#header-socials svg{
-    color:#9b9b9b ;
+#header-socials svg {
+  color: #9b9b9b;
+}
+
+@media (max-width: 1024px) {
+  #header {
+    width: auto;
+  }
+}
+
+@media (min-width: 800px) {
+  #header {
+    display: block !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .app-header {
+    display: none;
+  }
 }
