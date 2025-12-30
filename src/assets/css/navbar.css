@@ -7,7 +7,7 @@
   box-shadow: 0 10px 20px 0 rgba(8, 0, 42, 0.08);
 }
 
-input[type="text"] {
+.searchbar-input{
   border: none;
   outline: none;
   width: 200px;
@@ -44,7 +44,7 @@ input[type="text"] {
     outline: none;
 }
 
-#navbar{
+#navbar-id{
     position: sticky;
     top: 0;
     z-index: 10000;
@@ -56,30 +56,15 @@ input[type="text"] {
     justify-content: center;
 }
 
-#navbar h6:hover{
+#navbar-id h6:hover{
   color: #699c47;
   cursor: pointer;
 }
 
-@media(max-width:1100px){
-  .navbar{
-    width: auto;
-  }
-
-  #search-bar input{
-    width: auto;
-  }
-
-  #search-input button{
-    width: auto;
-  }
-
-  img{
-    width: auto;
-    height: auto;
-  }
-
-  input{
-    width: auto;
-  }
+nav{
+  padding: 0px !important;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  left: 0;
 }

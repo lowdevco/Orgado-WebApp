@@ -1,0 +1,56 @@
+
+/* Contact Left  */
+
+.contact-bg{
+    height:81vh;
+    background-color: #fff;
+}
+
+#contact-lt{
+    padding: 20px;
+}
+
+#container-wrap{
+    padding: 20px;
+    height: 100%;
+}
+
+.contact-input-name,.contact-input-phone,.contact-input-mail,.contact-input-msg{
+    width: 100%;
+    border-radius: 5px;
+    height: 60px;
+    border: 0px;
+    background-color: #f8f8f8;
+    padding: 0 20px;
+}
+
+.contact-input-msg{
+    height: 200px;
+    text-align: start;
+}
+
+.contact-button{
+    height: 60px;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 0 45px;
+    background-color: #699c47;
+    color: white;
+    border: none;
+}
+
+.contact-button:hover{
+    background-color: transparent;
+    color: #699c47;
+    border: #699c47 1px solid;
+}
+
+
+/* Contact Right  */
+
+.contact-rt{
+    border: 1px solid gray;
+    height: 50vh;
+    padding: 30px;
+    border-radius: 10px;
+}

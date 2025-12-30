@@ -74,6 +74,11 @@
   animation: slide 2.5s infinite ease-in-out;
 }
 
+img{
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
 @keyframes slide {
   0%, 100% {
     transform: translateX(0);

@@ -4,8 +4,10 @@ import "../css/navbar.css";
 
 function Navbar() {
   return (
+
+    
     <nav className="navbar">
-      <div className="container-fluid" id="navbar">
+      <div className="container-fluid" id="navbar-id">
         <div className="container-fluid d-flex justify-content-between py-3 align-items-center navbar-container">
           <div>
             <a href="">
@@ -67,7 +69,7 @@ function Navbar() {
           <div id="search-bar">
             <div className="d-flex">
               <div>
-                <input type="text" />
+                <input type="text" className="searchbar-input" />
               </div>
               <div>
                 <button>
