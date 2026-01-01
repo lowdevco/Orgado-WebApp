@@ -1,0 +1,105 @@
+
+
+.navbar-container {
+  max-width: 1650px;
+  margin: auto;
+  background-color: transparent;
+}
+
+.navbar-icon {
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: hsla(0, 0%, 78%, 0.438);
+  height: 45px;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 20px 0 rgba(8, 0, 42, 0.08);
+}
+
+#hamburger-icon{
+    border-radius: 0px ;
+    background-color: transparent;
+    color: hsl(0, 0%, 0%) ;
+    padding: 0px;
+    box-shadow: none;
+    scale: 1.6;
+}
+
+.header_hamburger {
+  display: flex;
+  align-items: center;
+}
+
+
+.hamburger-btn {
+  background: none;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+
+
+.hamburger-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 24px;
+  height: 16px;
+}
+
+
+.hamburger-icon span {
+  height: 2px;
+  background-color: #222;
+  border-radius: 2px;
+  transition: all 0.3s ease-in; 
+}
+
+
+.hamburger-icon span:nth-child(1),
+.hamburger-icon span:nth-child(3) {
+  width: 100%;
+}
+
+
+.hamburger-icon span:nth-child(2) {
+  width: 60%;
+}
+
+
+.hamburger-btn:hover .hamburger-icon span {
+  width: 100%;
+}
+
+
+
+#navbar-id{
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+    box-shadow: 0 0.2px 5px rgb(197, 197, 197);
+    background-color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgb(235, 235, 235);
+    border-bottom: solid 1px rgb(235, 235, 235);
+}
+
+#navbar-id h6:hover{
+  color: #699c47;
+  cursor: pointer;
+}
+
+nav{
+  padding: 0px !important;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+

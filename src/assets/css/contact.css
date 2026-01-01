@@ -19,14 +19,26 @@
     width: 100%;
     border-radius: 5px;
     height: 60px;
-    border: 0px;
+    border: transparent;
     background-color: #f8f8f8;
     padding: 0 20px;
 }
 
-.contact-input-msg{
-    height: 200px;
-    text-align: start;
+.contact-input-msg {
+  width: 100%;
+  height: 200px;
+  padding: 12px;
+  resize: none;
+  vertical-align: top;
+  line-height: normal;
+}
+
+.contact-form textarea{
+    outline: none;
+}
+
+.contact-form input{
+    outline: none;
 }
 
 .contact-button{
@@ -49,8 +61,23 @@
 /* Contact Right  */
 
 .contact-rt{
-    border: 1px solid gray;
-    height: 50vh;
-    padding: 30px;
+    border: 1px solid rgb(230, 230, 230);
+    height: 46vh;
+    padding: 10px 30px;
+    margin-bottom: 2rem;
     border-radius: 10px;
+    padding-top: 2rem;
+}
+
+.icon-box{
+    scale:2 ;
+    color: #699c47;
+    margin-top: 1.5rem;
+}
+
+/* I Frame Section  */
+
+.i-frame-section{
+    padding: 20px;
+    height: 38rem;
 }
