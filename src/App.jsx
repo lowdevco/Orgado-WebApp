@@ -13,12 +13,12 @@ function App() {
     <>
       <Header />
       <Subbar />
-      <NavbarCommon/>
+      <NavbarCommon />
       {/* <Navbar />
       <Mainsection />
       <Tabs />
       <Organictab /> */}
-      <Contact/>
+      <Contact />
       <Footer />
     </>
   );
